@@ -1,16 +1,23 @@
+body{
+    background-image: url(assets/719a6c05-6341-4292-b67a-e59449f8410e.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
 nav {
-    background-color: rgb(206, 80, 228);
+    background-color: rgb(163, 123, 219);
 }
 
 .collapse.navbar-collapse {
-    background-color: rgb(230, 181, 250);
+    background-color: rgb(185, 139, 234);
 }
 
 .navbar a,
 .navbar .nav-link,
 .navbar .dropdown-item,
 .navbar .form-control {
-    color: rgb(210, 110, 23);
+    color: rgb(255, 124, 9);
 }
 
 .theme-switch {
@@ -56,4 +63,51 @@ nav {
 .navbar {
     position: relative;
     padding-right: 120px;
+}
+
+.login-box,
+.vendas-box {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Login */
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 35px;
+}
+
+.login-box h2 {
+  color: #f7941d;
+}
+
+/* Vendas */
+
+.vendas-box {
+  max-width: 700px;
+  margin: auto;
+  padding: 35px;
+}
+
+.vendas-box h1 {
+  color: #f7941d;
+}
+
+.form-control,
+.form-select {
+  min-height: 45px;
+}
+
+.btn-primary {
+  background-color: #f7941d;
+  border-color: #f7941d;
+}
+
+.btn-primary:hover {
+  background-color: #e8830b;
+  border-color: #e8830b;
 }
